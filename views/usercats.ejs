@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Album example · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/album/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.1/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.1/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.1/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.1/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .nav-link {
+            font-size: 20px;
+            padding-right: 15px;
+        }
+
+        #contact {
+            padding-right: 35px;
+        }
+
+        header {
+            background-color: orangered;
+        }
+
+        .signup {
+
+            color: white;
+        }
+
+        .text-end button {
+            border: 1px solid white;
+
+        }
+
+        .text-end button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .text-end a:hover {
+            color: black;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            color: white;
+        }
+
+
+        .btn {
+            font-size: 20px;
+            border: 1px solid orangered;
+
+        }
+
+        .btn:hover {
+            background-color: orangered;
+            color: white;
+
+        }
+
+        footer img {
+            height: 25px;
+            width: 25px;
+        }
+
+        .card img {
+            height: 225px;
+        }
+
+        section {
+            width: 100%;
+            /* background: url('/img/dogback.jfif')no-repeat center /cover; */
+        }
+        p{
+            height: 95px;
+        }
+        .modalbtn{
+            margin-left: 615px;
+            background-color: orangered;
+            color: white;
+        }
+        .modal-footer .btn,.btn:hover{
+            background-color: orangered;
+            color: white;
+        }
+        .adoptbtn{
+            margin-left: 642px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="p-3  text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+
+                <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+            </form> -->
+                <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="/home1" class="nav-link  text-white" id="navlink">About</a></li>
+                    <li><a href="/contact" class="nav-link text-white" id="contact">Contact Us</a></li>
+                    <!-- <li><a href="#" class="nav-link text-white" id="contact">Pet Adoption</a></li> -->
+                    <!-- <li><a href="#" class="nav-link text-white" id="contact">Contact Us</a></li> -->
+                    <!-- <li><a href="#" class="nav-link px-2 text-white"></a></li>
+              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+              <li><a href="#" class="nav-link px-2 text-white">About</a></li> -->
+                </ul>
+
+                <!-- <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-lg-3 "><a href="" class="signup">Login</a></button>
+              <button type="button" class="btn "><a href="" class=" signup">Signup</a></button>
+            
+            </div> -->
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <img src="/img/catpaw.webp" alt="">
+                    <p class="lead text-muted">“Such short little lives our pets have to spend with us, and they spend most of it waiting for us to come home each day.”</p>
+
+                </div>
+            </div>
+        </section>
+
+        
+        </div>
+        <div class="album py-5">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-2 row-cols-md-3 g-3">
+                    <% cats.forEach(function(items){%>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img src="/uploads/<%=items.img%>" alt="">
+                                <div class="card-body">
+                                    <p class="card-text" style="font-size:15px;
+                                    margin-top: 10px;">
+                                        <b> Name: </b> <%=items.name%> <br> <b> Age: </b><%=items.age%> <br>  <b> Gender: </b><%=items.gender%> <br> <b> Breed: </b><%=items.breed%> <br>
+                                        <!-- <b> Description: </b><%=items.description%>  -->
+                                    </p>
+                                    
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <!-- <button type="button" class="btn btn-sm " style="background-color: orangered;color: white;">Adopt</button> -->
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     <% })%>
+
+
+                </div>
+            </div>
+
+        </div>
+  
+        
+        <button type="button" class="btn btn-sm adoptbtn" style="background-color: orangered;"><a href="/adoptionform" >Adopt</a></button>
+
+        
+    </main>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"></svg>
+                </a>
+                <span class="text-muted">&copy; 2021 Anzen'na, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/prevail._.dsouza/"><img
+                            src="/img/logo-instagram-png-13560.png" alt=""></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://twitter.com/Praanjalakamath"><img
+                            src="/img/kisspng-silhouette-computer-icons-twitter-clip-art-twitter-5ac824ff9139f6.8983432515230661115949.png"
+                            alt=""></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><img src="/img/287739_facebook_icon.png" alt=""></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
